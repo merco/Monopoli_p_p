@@ -1,0 +1,45 @@
+[DeviceName]
+Value=P16F88
+[DeviceClock]
+Value=1
+[MainUnit]
+Value=MonoBank.c
+[DeviceFlags]
+Count=13
+Value0=_CP_OFF = $3FFF
+Value1=_CCP1_RB0 = $3FFF
+Value2=_DEBUG_OFF = $3FFF
+Value3=_WRT_ENABLE_OFF = $3FFF
+Value4=_CPD_OFF = $3FFF
+Value5=_LVP_OFF = $3F7F
+Value6=_BODEN_OFF = $3FBF
+Value7=_MCLR_ON = $3FFF
+Value8=_PWRTE_OFF = $3FFF
+Value9=_WDT_OFF = $3FFB
+Value10=_INTRC_IO = $3FFC
+Value11=_IESO_OFF___CFG2 = $3FFD
+Value12=_FCMEN_OFF___CFG2 = $3FFE
+[BuildType]
+bType=0
+[ProjectFiles]
+Count=1
+Value0=MonoBank.c
+[HeaderFiles]
+Count=0
+[ObjLibFiles]
+Count=0
+[PLDFiles]
+Count=0
+[EEPROMinfo]
+isused=0
+[SearchPath]
+Count=7
+Value0=C:\DAVIDE\monopolo_board\cashMonopoly\src\
+Value1=c:\users\public\Mikroelektronika\mikroC\Defs\
+Value2=c:\users\public\Mikroelektronika\mikroC\Uses\p16\
+Value3=C:\_dati\DAVIDE\PIC\cashMonopoly\src\
+Value4=C:\DAVIDE\monopolo_board\cashMonopoly\src\
+Value5=C:\Program Files (x86)\Mikroelektronika\mikroC\Defs\
+Value6=C:\Program Files (x86)\Mikroelektronika\mikroC\Uses\p16\
+[IncludePath]
+Count=0
