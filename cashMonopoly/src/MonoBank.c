@@ -34,22 +34,22 @@ const char *spazio = " ";
 const char *rigavuota = "                ";
 
 const char *msgs [8] = {"MONO-BANK","Azzero Importi?","Importi azzerati","Muovo:","Saldo:","Inizio:","Tolgo:","Metto:"};
-unsigned int keyPadConst [16][2]  = {{149,0x30},  //0
-                                     {559,0x31},
+unsigned int keyPadConst [16][2]  = {{139,0x30},  //0
+                                     {556,0x31},
                                      {542,0x32},
                                      {525,0x33},
-                                     {480,0x34},
+                                     {476,0x34},
                                      {457,0x35},
                                      {433,0x36},
-                                     {370,0x37},
+                                     {365,0x37},
                                      {336,0x38},
-                                     {300,0x39},   //9
-                                     {200,0x2A},   //*
-                                     {80,0x23},    //#
+                                     {299,0x39},   //9
+                                     {190,0x2A},   //*
+                                     {78,0x23},    //#
                                      {508,0x41},   //A
-                                     {410,0x42},   //B
-                                     {264,0x43},   //C
-                                     {24,0x44}};    //D
+                                     {408,0x42},   //B
+                                     {263,0x43},   //C
+                                     {15,0x44}};    //D
 
 
 
@@ -230,8 +230,8 @@ unsigned short i=0;
     adcT = Adc_Read(0);
     
 
-      //  IntToStr(adcT, txtDebug);  // txt is " -4220" (one blank here)
-     // Lcd_Out(2, 1, txtDebug);
+    //   IntToStr(adcT, txtDebug);  // txt is " -4220" (one blank here)
+     //Lcd_Out(2, 1, txtDebug);
           
           
     } while (adcT<=1000);
